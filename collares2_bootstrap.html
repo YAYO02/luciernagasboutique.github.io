@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Collares - Boutique Luciérnagas</title>
+  <link rel="stylesheet" href="css/estilos.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <img src="images/encabezado.jpg" alt="Logotipo Boutique Luciérnagas">
+    </div>
+  </header>
+
+  <nav>
+      <ul>
+        <li><a href="index.html">INICIO</a></li>
+        <!-- Enlace activo para la sección Ropa -->
+        <li><a href="ropa.html" >ROPA</a></li>
+        <li><a href="accesorios-bootstrap.html" class="active">ACCESORIOS</a></li>
+        <li><a href="consejos.html">CONSEJOS</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+      </ul>
+    </nav>
+
+
+  <!-- Contenido principal -->
+  <main class="container">
+    <section>
+      <div class="text-center mb-4">
+        <h2>Collares y pulseras</h2>
+        <p class="lead">Consulta aquí la disponibilidad de cada prenda. La información mostrada es solo de carácter informativo.</p>
+      </div>
+
+      <!-- Galería de productos con tarjetas Bootstrap -->
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- Producto 1 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/collar_3.jpg" class="card-img-top" alt="Bolso Cruzado de dama">
+            <div class="card-body">
+              <h5 class="card-title">Collar de estrella</h5>
+              <p class="card-text">Material: Chapa de oro</p>
+          <p>Collar para dama en color oro, ideal para toda ocasión.</p>
+              <p class="text-success fw-bold">$149 MXN</p>
+             
+            </div>
+          </div>
+        </div>
+        <!-- Producto 2 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/collar_4.jpg" class="card-img-top" alt="Bolso de hombro">
+            <div class="card-body">
+              <h5 class="card-title">Collar de estrellas</h5>
+              <p class="card-text">Material: plata 0.95 </p>
+            <p>collar para dama, ideal para toda ocasión </p>
+              <p class="text-success fw-bold">$150 MXN</p>
+              
+            </div>
+          </div>
+        </div>
+        <!-- Producto 3 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/pulsera_5.jpg" class="card-img-top" alt="Bolso tipo mochila">
+            <div class="card-body">
+              <h5 class="card-title">Pulsera de flores con perlas</h5>
+              <p>Material: acero inoxidable</p>
+              <p>Ideal para combinar con cualquier prenda, variedad de iniciales.</p>
+              <p class="text-success fw-bold">$180 MXN</p>
+             
+            </div>
+          </div>
+        </div>
+        <!-- Producto 4 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/collar_5.jpg" class="card-img-top" alt="Bolso con orejitas de gato">
+            <div class="card-body">
+              <h5 class="card-title">collar de flores con moño</h5>
+              <p>Material: chapa de oro</p>
+              <p>Ideal para combinar con cualquier prenda, variedad de iniciales.</p>
+              <p class="text-success fw-bold">$180 MXN</p>
+              
+            </div>
+          </div>
+        </div>
+        <!-- Producto 5 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/pulsera_3.jpg" class="card-img-top" alt="Bolso con tejido de flores">
+            <div class="card-body">
+              <h5 class="card-title">Pulseras</h5>
+          <p>Material: acero inoxidable </p>
+          <p>Un estilo versátil para usar en diferentes ocasiones.</p>
+              <p class="text-success fw-bold">$180 MXN</p>
+             
+            </div>
+          </div>
+        </div>
+        <!-- Producto 6 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="images/pulsera_4.jpg" class="card-img-top" alt="Bolso cruzado">
+            <div class="card-body">
+              <h5 class="card-title">Pulseras</h5>
+          <p>Material: Chapa de oro </p>
+          <p>perfecta para cualquier look.</p>
+              <p class="text-success fw-bold">$180 MXN</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Acordeón (desplegable) con información adicional -->
+      <div class="accordion my-4" id="infoExtra">
+         <h2> Preguntas frecuentes</h2>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+              ¿Los collares y pulseras cambian de color con el uso?
+            </button>
+          </h2>
+          <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#infoExtra">
+            <div class="accordion-body">
+              No. Si se siguen los cuidados recomendados (evitar perfumes directos, humedad extrema o productos químicos), nuestros accesorios conservan su color y brillo por mucho tiempo.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Paginación -->
+      <nav aria-label="Page navigation example" class="text-center">
+        <ul class="pagination justify-content-center">
+          <li class="page-item"><a class="page-link" href="collares_bootstrap.html">Anterior</a></li>
+          <li class="page-item "><a class="page-link" href="collares_bootstrap.html">1</a></li>
+          <li class="page-item active"><a class="page-link" href="collares2_bootstrap.html">2</a></li>
+          
+        </ul>
+      </nav>
+    </section>
+  </main>
+
+  <!-- Pie de página con formulario Bootstrap -->
+   <footer class="bg-pink text-black mt-5 p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center mb-3">
+          <img src="images/encabezado.jpg" alt="Logotipo Boutique Luciérnagas" class="img-fluid">
+         
+        </div>
+        <div class="col-md-4">
+          <h5>Acerca de nosotros</h5>
+          <p>
+            Somos una boutique comprometida en llevar tendencias en moda y accesorios para dama con un servicio sin igual. Visita nuestra boutique para verificar los productos disponibles y realiza tus compras en nuestro establecimiento.
+          </p>
+          <p> Visítanos en calle De La Mora S/N, Loma Linda, Heróica Puebla de Zaragoza, Puebla, Pue., 72590</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Contáctanos</h5>
+          <form>
+            <div class="mb-2">
+              <input type="text" class="form-control" placeholder="Tu nombre">
+            </div>
+            <div class="mb-2">
+              <input type="email" class="form-control" placeholder="Correo electrónico">
+            </div>
+            <div class="mb-2">
+              <textarea class="form-control" placeholder="Mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-light btn-sm">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
